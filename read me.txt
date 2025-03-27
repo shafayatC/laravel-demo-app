@@ -1,0 +1,35 @@
+composer global require "laravel/installer=~1.1"
+
+new project create ==========
+laravel new example-app
+
+composer create-project laravel/laravel your-project-name 4.2.*
+
+==================
+
+run Laravel project with http://localhost:8000
+composer run dev
+
+
+start server on project path : 
+php artisan serve
+
+
+install api package : 
+php artisan install:api 
+
+
+create api control: 
+php artisan make:controller controllerName
+
+
+create api model " model name match database table name : 
+php artisan make:model modelName
+
+Generate Migrations: 
+php artisan make:migration create_customers_table
+
+migrate er jonno : 
+php artisan migrate
+
+
